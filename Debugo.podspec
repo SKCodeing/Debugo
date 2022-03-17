@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |sb|
     sb.source_files = 'Debugo/Classes/**/*'
     sb.resources = 'Debugo/Assets/Debugo.bundle'
-    sb.dependency 'FMDB', '>= 2.7.2'
+    # sb.dependency 'FMDB', '>= 2.7.2'
   end
 end
